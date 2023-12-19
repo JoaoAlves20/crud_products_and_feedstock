@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
-import { supabase } from '../../supabase/supabase';
+import { supabase } from '../supabase/supabase';
 
 import type { Product, BodyProduct } from '../interfaces/ProductInterface';
 
